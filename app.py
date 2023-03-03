@@ -12,7 +12,7 @@ return "Hello World"
 # Lo hace dentro de la dirección IP del ordenador host
 # Expón este contenedor a través de la IP principal que tenga el servidor que la aloje
 if __name__ == '__main__':
-app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0')
 
 # las lineas 2,4,14 y 15 son comunes para cualquier proyecto
 # nosotros sólo vamos a tener que cambiar la 6,9 y 10
